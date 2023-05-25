@@ -21,6 +21,18 @@ const create = async (req: Request, res: Response): Promise<Response> => {
 
   return res.status(500).json(data);
 };
+
+const findAll = async (req: Request, res: Response): Promise<Response> => {
+  const { data, type } = await productService.findAll();
+
+  if (type === 'OK') {
+    return res.status(200).json(data);
+  }
+
+  return res.status(500).json(data);
+};
+
 export default {
   create,
+  findAll,
 };
