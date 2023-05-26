@@ -4,3 +4,7 @@ export type Product = {
   price: string;
   orderId: number;
 };
+
+export type ProductId = {
+  id: number;
+};
