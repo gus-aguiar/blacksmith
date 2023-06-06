@@ -1,3 +1,5 @@
+#CONTINUA
+
 # API de Loja de Itens Medievais 🗡️🛡️
 
 Neste projeto, desenvolvi uma API de uma loja de itens medievais, utilizando Typescript e Sequelize. A API permite a criação, leitura e atualização de informações sobre os itens disponíveis na loja. Implementei autenticação utilizando JWT em algumas rotas para garantir a segurança das operações. Além disso, foram criadas as camadas de Service e Controllers para organizar a lógica de negócio e interação com as rotas da API. Também implementei testes automatizados para assegurar o correto funcionamento das rotas e funcionalidades.
