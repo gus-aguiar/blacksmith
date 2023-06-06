@@ -1,4 +1,4 @@
-#CONTINUA
+# CONTINUA
 
 # API de Loja de Itens Medievais 🗡️🛡️
 
